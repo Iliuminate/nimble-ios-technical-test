@@ -6,7 +6,7 @@ target 'nimble-ios-technical-test' do
   use_frameworks!
 
   # Pods for nimble-ios-technical-test
-  pod 'Alamofire', '5.8.1'
-  pod 'lottie-ios', '~> 4.3.3'
+  pod 'Alamofire'
+  pod 'lottie-ios'
 
 end

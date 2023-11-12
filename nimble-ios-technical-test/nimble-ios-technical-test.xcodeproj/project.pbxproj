@@ -3,26 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2D54D12B0160700067DEE5 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2D54D02B0160700067DEE5 /* Networking */; };
+		0F2D54D42B0160810067DEE5 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2D54D32B0160810067DEE5 /* Data */; };
+		0F2D54D62B0160950067DEE5 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2D54D52B0160950067DEE5 /* Common */; };
+		0F2D54D92B0160A50067DEE5 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2D54D82B0160A50067DEE5 /* Domain */; };
 		0FCE073C2B013F5E004AA0CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE073B2B013F5E004AA0CE /* AppDelegate.swift */; };
-		0FCE07402B013F5E004AA0CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE073F2B013F5E004AA0CE /* ViewController.swift */; };
-		0FCE07432B013F5E004AA0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE07412B013F5E004AA0CE /* Main.storyboard */; };
 		0FCE07452B013F5F004AA0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE07442B013F5F004AA0CE /* Assets.xcassets */; };
 		0FCE07482B013F5F004AA0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE07462B013F5F004AA0CE /* LaunchScreen.storyboard */; };
+		0FD8C6092B017C3B005C1F51 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8C6072B017C3B005C1F51 /* MainController.swift */; };
+		0FD8C60A2B017C3B005C1F51 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FD8C6082B017C3B005C1F51 /* MainController.xib */; };
 		A04B68B10A00D023B010BFB1 /* Pods_nimble_ios_technical_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CBF2C91DD22852BFB79A67 /* Pods_nimble_ios_technical_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FCE07382B013F5E004AA0CE /* nimble-ios-technical-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nimble-ios-technical-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCE073B2B013F5E004AA0CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FCE073F2B013F5E004AA0CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FCE07422B013F5E004AA0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FCE07442B013F5F004AA0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FCE07472B013F5F004AA0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FCE07492B013F5F004AA0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD8C6072B017C3B005C1F51 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		0FD8C6082B017C3B005C1F51 /* MainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
 		76CBF2C91DD22852BFB79A67 /* Pods_nimble_ios_technical_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nimble_ios_technical_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8083F38CB69B9D63BFF172FE /* Pods-nimble-ios-technical-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nimble-ios-technical-test.debug.xcconfig"; path = "Target Support Files/Pods-nimble-ios-technical-test/Pods-nimble-ios-technical-test.debug.xcconfig"; sourceTree = "<group>"; };
 		F6F33FF6313FEB69DBFD09FE /* Pods-nimble-ios-technical-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nimble-ios-technical-test.release.xcconfig"; path = "Target Support Files/Pods-nimble-ios-technical-test/Pods-nimble-ios-technical-test.release.xcconfig"; sourceTree = "<group>"; };
@@ -33,7 +37,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2D54D92B0160A50067DEE5 /* Domain in Frameworks */,
+				0F2D54D12B0160700067DEE5 /* Networking in Frameworks */,
 				A04B68B10A00D023B010BFB1 /* Pods_nimble_ios_technical_test.framework in Frameworks */,
+				0F2D54D42B0160810067DEE5 /* Data in Frameworks */,
+				0F2D54D62B0160950067DEE5 /* Common in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +54,16 @@
 				8083F38CB69B9D63BFF172FE /* Pods-nimble-ios-technical-test.debug.xcconfig */,
 				F6F33FF6313FEB69DBFD09FE /* Pods-nimble-ios-technical-test.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		0F3FE6EB2B01694A00FEE916 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				0FD8C6072B017C3B005C1F51 /* MainController.swift */,
+				0FD8C6082B017C3B005C1F51 /* MainController.xib */,
+			);
+			path = Flow;
 			sourceTree = "<group>";
 		};
 		0FCE072F2B013F5E004AA0CE = {
@@ -71,9 +87,8 @@
 		0FCE073A2B013F5E004AA0CE /* nimble-ios-technical-test */ = {
 			isa = PBXGroup;
 			children = (
+				0F3FE6EB2B01694A00FEE916 /* Flow */,
 				0FCE073B2B013F5E004AA0CE /* AppDelegate.swift */,
-				0FCE073F2B013F5E004AA0CE /* ViewController.swift */,
-				0FCE07412B013F5E004AA0CE /* Main.storyboard */,
 				0FCE07442B013F5F004AA0CE /* Assets.xcassets */,
 				0FCE07462B013F5F004AA0CE /* LaunchScreen.storyboard */,
 				0FCE07492B013F5F004AA0CE /* Info.plist */,
@@ -107,6 +122,12 @@
 			dependencies = (
 			);
 			name = "nimble-ios-technical-test";
+			packageProductDependencies = (
+				0F2D54D02B0160700067DEE5 /* Networking */,
+				0F2D54D32B0160810067DEE5 /* Data */,
+				0F2D54D52B0160950067DEE5 /* Common */,
+				0F2D54D82B0160A50067DEE5 /* Domain */,
+			);
 			productName = "nimble-ios-technical-test";
 			productReference = 0FCE07382B013F5E004AA0CE /* nimble-ios-technical-test.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +156,12 @@
 				Base,
 			);
 			mainGroup = 0FCE072F2B013F5E004AA0CE;
+			packageReferences = (
+				0F2D54CA2B015FAE0067DEE5 /* XCLocalSwiftPackageReference "Packages/Common" */,
+				0F2D54CF2B01606F0067DEE5 /* XCLocalSwiftPackageReference "Packages/Networking" */,
+				0F2D54D22B0160810067DEE5 /* XCLocalSwiftPackageReference "Packages/Data" */,
+				0F2D54D72B0160A50067DEE5 /* XCLocalSwiftPackageReference "Packages/Domain" */,
+			);
 			productRefGroup = 0FCE07392B013F5E004AA0CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -151,7 +178,7 @@
 			files = (
 				0FCE07482B013F5F004AA0CE /* LaunchScreen.storyboard in Resources */,
 				0FCE07452B013F5F004AA0CE /* Assets.xcassets in Resources */,
-				0FCE07432B013F5E004AA0CE /* Main.storyboard in Resources */,
+				0FD8C60A2B017C3B005C1F51 /* MainController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FCE07402B013F5E004AA0CE /* ViewController.swift in Sources */,
+				0FD8C6092B017C3B005C1F51 /* MainController.swift in Sources */,
 				0FCE073C2B013F5E004AA0CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0FCE07412B013F5E004AA0CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FCE07422B013F5E004AA0CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0FCE07462B013F5F004AA0CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -359,11 +378,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9VUUQV7X5U;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "nimble-ios-technical-test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -388,11 +408,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9VUUQV7X5U;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "nimble-ios-technical-test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -430,6 +451,44 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0F2D54CA2B015FAE0067DEE5 /* XCLocalSwiftPackageReference "Packages/Common" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Common;
+		};
+		0F2D54CF2B01606F0067DEE5 /* XCLocalSwiftPackageReference "Packages/Networking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Networking;
+		};
+		0F2D54D22B0160810067DEE5 /* XCLocalSwiftPackageReference "Packages/Data" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Data;
+		};
+		0F2D54D72B0160A50067DEE5 /* XCLocalSwiftPackageReference "Packages/Domain" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Domain;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F2D54D02B0160700067DEE5 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		0F2D54D32B0160810067DEE5 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		0F2D54D52B0160950067DEE5 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		0F2D54D82B0160A50067DEE5 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0FCE07302B013F5E004AA0CE /* Project object */;
 }
